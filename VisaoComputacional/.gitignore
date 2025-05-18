@@ -1,0 +1,27 @@
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Modelos e arquivos grandes
+*.pt
+
+# Configs de editor
+.vscode/
+*.swp
+
+# Dados temporários ou sensíveis
+.env
+*.bak
+
+# Diretórios gerados
+build/
+dist/
+*.egg-info/
+
+# Prints gerados em tempo real (opcional)
+prints/
