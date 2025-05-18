@@ -1,0 +1,33 @@
+.enviroment-tracker--container{
+    width: 100%;
+}
+
+.enviroment-tracker--cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.enviroment-tracker--icon{
+    font-size: 32px;
+    margin: 0;
+}
+
+.loading-text {
+    font-size: 16px;
+    color: #888;
+}
+  
+
+@media (max-width: 1000px) {
+    .enviroment-tracker--cards-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .enviroment-tracker--cards-container {
+        grid-template-columns: 1fr;
+    }
+}

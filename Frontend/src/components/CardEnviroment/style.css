@@ -1,0 +1,29 @@
+.card-enviroment--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-enviroment--text-title{
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-enviroment--info-container{
+    display: flex;
+    font-size: 28px;
+    align-items: center;
+}
+
+.card-enviroment--unit-text{
+    font-size: 14px;
+    margin: 0;
+}
+
+.card-alert {
+    background-color: #ffdddd;
+    color: red;
+}
